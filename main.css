@@ -20,7 +20,10 @@ body {
 
 }
 main {
-    background: chartreuse;
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    padding: 10px;  
 }
 .nav-links {
     display: flex;
@@ -34,7 +37,7 @@ header {
     display: flex;
     align-items: center;
     background: brown;
-
+    border-bottom: solid 5px black;
 }
 
 .nav-link {
