@@ -1,3 +1,9 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(Roboto/Roboto-Black.ttf)
+    
+  }
+
 * {
  margin: 0;
  padding: 0;
@@ -7,12 +13,27 @@
 
 
 }
-.sm {
+.youtubes{
     width: 200px;
-    height: auto;
-    
+    height: auto;position:fixed;
+    bottom: 0px;
+    left: 60%;
+}
+.twitches{
+    width: 200px;
+    height: auto;position:fixed;
+    bottom: 0px;
+    left:50%;
+}
+.discords{
+    width: 200px;
+    height: auto;position:fixed;
+    bottom: 0px;
+    left:40%;
     
 }
+
+
 body {
 
  background-color: rgb(58, 253, 255);
@@ -45,4 +66,13 @@ header {
 }
 .p {
     line-height: 3;
+}
+.socials {
+    
+    width: 200px;
+    height: auto;position:fixed;
+    bottom: 210px;
+    left:50%;
+    text-align: center;
+    font-family: myFirstFont;
 }
