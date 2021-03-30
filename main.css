@@ -1,0 +1,41 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ text-decoration: none;
+ list-style: none;
+
+
+}
+.sm {
+    width: 200px;
+    height: auto;
+    
+    
+}
+body {
+
+ background-color: rgb(58, 253, 255);
+
+
+}
+.nav-links {
+    display: flex;
+    margin: 30px;
+       
+
+
+
+}
+header {
+    display: flex;
+    align-items: center;
+    
+
+}
+.nav-link {
+    padding: 0px 50px;
+}
+.p {
+    line-height: 3;
+}
