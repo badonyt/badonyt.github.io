@@ -19,6 +19,9 @@ body {
 
 
 }
+main {
+    background: chartreuse;
+}
 .nav-links {
     display: flex;
     margin: 30px;
@@ -30,9 +33,10 @@ body {
 header {
     display: flex;
     align-items: center;
-    
+    background: brown;
 
 }
+
 .nav-link {
     padding: 0px 50px;
 }
