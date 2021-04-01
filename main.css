@@ -54,6 +54,9 @@ main {
 
 
 }
+.Bad{
+    font-family: myFirstFont;
+}
 header {
     display: flex;
     align-items: center;
@@ -63,6 +66,7 @@ header {
 
 .nav-link {
     padding: 0px 50px;
+    font-family: myFirstFont;
 }
 .p {
     line-height: 3;
