@@ -19,6 +19,10 @@
     bottom: 0px;
     left: 65%;
 }
+.badpic{
+    width: 250px;
+   
+}
 .twitches{
     width: 200px;
     height: auto;position:fixed;
