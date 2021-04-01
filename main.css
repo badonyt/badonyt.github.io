@@ -86,7 +86,26 @@ header {
     font-family: myFirstFont;
     
     
+    
 }
 .something{
     background-color: black;
+}
+.termsofbutton{
+    
+    width: 200px;
+    height: auto;position:fixed;
+    bottom: 10px;
+    left:0%;
+    
+    font-family: myFirstFont;
+}
+.termsofbuttonhome{
+    
+    width: 200px;
+    height: auto;position:fixed;
+    bottom: 30px;
+    left:0%;
+    
+    font-family: myFirstFont;
 }
