@@ -57,8 +57,8 @@ main {
 header {
     display: flex;
     align-items: center;
-    background: brown;
-    border-bottom: solid 5px black;
+    background: rgb(2, 180, 255);
+    border-bottom: solid 5px rgb(78, 143, 240);
 }
 
 .nav-link {
