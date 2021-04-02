@@ -36,7 +36,12 @@
     left: 25%;
     
 }
-
+.discordbutton{
+    width: 200px;
+    height: auto;position:fixed;
+    bottom: 500px;
+    left: 46%;
+}
 
 body {
 
