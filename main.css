@@ -42,6 +42,16 @@
     bottom: 500px;
     left: 46%;
 }
+.emailssssss{
+    
+    height: auto;position:fixed;
+    bottom: 700px;
+    left: 45%;
+    
+    font-family: myFirstFont;
+    color: black;
+    font-size: 25px;
+}
 
 body {
 
