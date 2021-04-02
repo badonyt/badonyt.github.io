@@ -139,3 +139,12 @@ header {
     font-size: 25px;
     font-family: myFirstFont;
 }
+.yup{
+    width: 200px;
+    height: auto;position:fixed;
+    bottom: 700px;
+    left:50%;
+    font-size: 25px;
+
+    font-family: myFirstFont;
+}
