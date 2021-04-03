@@ -89,8 +89,15 @@ header {
 }
 .p {
     line-height: 3;
+    font-family: myFirstFont;
 }
-
+.text{
+    line-height: 3;
+    font-family: myFirstFont;
+}
+.abouts{
+    font-family: myFirstFont;
+}
 .socials {
     
     width: 200px;
@@ -114,7 +121,9 @@ header {
 }
 .something{
     
-    background-color: black;
+    
+    font-family: myFirstFont;
+    line-height: 50px;
 }
 .termsofbutton{
     
@@ -125,6 +134,7 @@ header {
     
     font-family: myFirstFont;
 }
+
 .termsofbuttonhome{
     
     width: 200px;
