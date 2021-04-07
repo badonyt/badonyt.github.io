@@ -27,7 +27,7 @@
     width: 200px;
     height: auto;position:fixed;
     bottom: 0px;
-    left:45%;
+    left: 45%;
 }
 .discords{
     width: 200px;
@@ -40,13 +40,13 @@
     width: 200px;
     height: auto;position:fixed;
     bottom: 500px;
-    left: 46%;
+    left: 50%;
 }
 .emailssssss{
     
     height: auto;position:fixed;
     bottom: 700px;
-    left: 45%;
+    left: 50%;
     
     font-family: myFirstFont;
     color: black;
@@ -94,9 +94,22 @@ header {
 .text{
     line-height: 3;
     font-family: myFirstFont;
+    text-align: center;
+}
+.justmovecenter{
+    
+   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+   
 }
 .abouts{
     font-family: myFirstFont;
+    
+    text-align: center;
+    
 }
 .socials {
     
@@ -124,6 +137,9 @@ header {
     
     font-family: myFirstFont;
     line-height: 50px;
+    text-align: center;
+    
+
 }
 .termsofbutton{
     
