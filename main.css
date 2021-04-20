@@ -21,7 +21,10 @@
 }
 .badpic{
     width: 250px;
-   
+    display: block;
+     margin-left: auto;
+    margin-right: auto;
+     
 }
 .twitches{
     width: 200px;
@@ -90,11 +93,16 @@ header {
 .p {
     line-height: 3;
     font-family: myFirstFont;
+    text-align: center;
 }
 .text{
     line-height: 3;
     font-family: myFirstFont;
     text-align: center;
+}
+.Name{
+    font-family: myFirstFont;
+    font-size: 25px;
 }
 .justmovecenter{
     
