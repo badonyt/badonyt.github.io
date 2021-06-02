@@ -99,6 +99,7 @@ header {
 .nav-link {
     padding: 0px 50px;
     font-family: myFirstFont;
+    cursor: pointer;
 }
 .socials {
     
