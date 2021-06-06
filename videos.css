@@ -16,14 +16,14 @@
 .change{
     width: 200px;
     height: auto;position:fixed;
-    bottom: 350px;
+    bottom: 48%;
     left: 35%;
     font-family: myFirstFont;
 }
 .Thximage{
     width: 200px;
     height: auto;position:fixed;
-    bottom: 370px;
+    bottom: 50%;
     left: 54%;  
 }
 .videoss{
@@ -34,13 +34,13 @@
 .changei{
     width: 200px;
     height: auto;position:fixed;
-    bottom: 370px;
+    bottom: 50%;
     left: 34.5%;
 }
 .Thx{
     width: 200px;
     height: auto;position:fixed;
-    bottom: 350px;
+    bottom: 48%;
     left: 55%;
     font-family: myFirstFont;
 }
