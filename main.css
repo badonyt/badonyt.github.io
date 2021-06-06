@@ -42,14 +42,14 @@
 .discordbutton{
     width: 200px;
     height: auto;position:fixed;
-    bottom: 300px;
-    left: 44%;
+    bottom: 50%;
+    left: 46%;
 }
 .emailssssss{
     
     height: auto;position:fixed;
-    bottom: 400px;
-    left: 40%;
+    bottom: 50%;
+    left: 44%;
     
     font-family: myFirstFont;
     color: black;
