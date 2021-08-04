@@ -142,7 +142,18 @@ header {
 
     font-family: myFirstFont;
 }
+.termsofbutton_2 {
+    width: 200px;
+    height: auto;
+    position: fixed;
+    bottom: 30px;
+    left: 0%;
 
+    font-family: myFirstFont;
+
+
+
+}
 .termsofbuttonhome {
     width: 200px;
     height: auto;
