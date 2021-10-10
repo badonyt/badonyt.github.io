@@ -125,8 +125,8 @@ function draw() {
 }
 function keyPressed() {
 	if (keyCode == ENTER) {
-		if ((restart = true)) {
-			ball.setSpeed(MAX_SPEED, 180);
+		if (restart == true) {
+			ball.setSpeed(MAX_SPEED, random(0, 180));
 			restart = false;
 		}
 	}
