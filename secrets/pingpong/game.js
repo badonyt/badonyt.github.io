@@ -24,6 +24,7 @@ var MAX_SPEED = 10;
 let pointsA = 0;
 let pointsB = 0;
 let restart;
+let hardmode = false;
 
 function setup() {
 	createCanvas(800, 400);
@@ -126,8 +127,20 @@ function draw() {
 function keyPressed() {
 	if (keyCode == ENTER) {
 		if (restart == true) {
-			ball.setSpeed(MAX_SPEED, random(0, 180));
+			if (hardmode == true) {
+				ball.setSpeed(MAX_SPEED, random(0, 180));
+			} else {
+				ball.setSpeed(MAX_SPEED, 180);
+			}
+
 			restart = false;
+		}
+	}
+	if (keyCode == 72) {
+		if (hardmode == true) {
+			hardmode = false;
+		} else {
+			hardmode = true;
 		}
 	}
 }
