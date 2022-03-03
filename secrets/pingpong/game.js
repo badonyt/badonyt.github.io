@@ -19,6 +19,7 @@ window.addEventListener(
 //pong clone
 //mouse to control both paddles
 
+let poggers = 1;
 var paddleA, paddleB, ball, wallTop, wallBottom;
 var MAX_SPEED = 10;
 let pointsA = 0;
@@ -50,6 +51,39 @@ function setup() {
 	ball.shapeColor = color(255, 255, 255);
 
 	ball.setSpeed(MAX_SPEED, -180);
+
+	aupp = createButton("A up");
+	aupp.mousePressed(AUP);
+	aupp.position(6);
+	aupp.size(200);
+
+	adownn = createButton("A down");
+	adownn.mousePressed(ADOWN);
+	adownn.position(206);
+	adownn.size(200);
+
+	bupp = createButton("B up");
+	bupp.mousePressed(BUP);
+	bupp.position(406);
+	bupp.size(200);
+
+	bdownn = createButton("B down");
+	bdownn.mousePressed(BDOWN);
+	bdownn.position(606);
+	bdownn.size(200);
+}
+
+function AUP() {
+	paddleA.position.y -= 10;
+}
+function ADOWN() {
+	paddleA.position.y += 10;
+}
+function BUP() {
+	paddleB.position.y -= 10;
+}
+function BDOWN() {
+	paddleB.position.y += 10;
 }
 
 function draw() {
@@ -130,7 +164,13 @@ function keyPressed() {
 			if (hardmode == true) {
 				ball.setSpeed(MAX_SPEED, random(0, 180));
 			} else {
-				ball.setSpeed(MAX_SPEED, 180);
+				if (poggers == 1) {
+					ball.setSpeed(MAX_SPEED, 180);
+					poggers = 0;
+				} else if (poggers == 0) {
+					ball.setSpeed(MAX_SPEED, 0);
+					poggers = 1;
+				}
 			}
 
 			restart = false;
