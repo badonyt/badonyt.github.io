@@ -2,6 +2,10 @@
 	font-family: myFirstFont;
 	src: url(/Roboto/Roboto-Black.ttf);
 }
+@font-face {
+	font-family: poggers;
+	src: url(/Roboto/Roboto-Regular.ttf);
+}
 .termsofffservicee {
 	font-family: myFirstFont;
 }
@@ -12,6 +16,7 @@
 	text-decoration: none;
 	list-style: none;
 }
+
 .youtubes {
 	width: 200px;
 	height: auto;
@@ -58,7 +63,18 @@
 }
 
 body {
-	background-color: rgb(58, 253, 255);
+	background-color: rgb(165, 160, 122);
+}
+.copytext {
+	/* font-size: 25px; */
+	font-family: poggers;
+	font-size: 1.6vw;
+}
+
+.copytextb {
+	/* font-size: 25px; */
+	font-family: poggers;
+	font-size: 2.5vw;
 }
 main {
 	margin: auto;
@@ -76,8 +92,8 @@ main {
 header {
 	display: flex;
 	align-items: center;
-	background: rgb(2, 180, 255);
-	border-bottom: solid 5px rgb(78, 143, 240);
+	background: rgb(146, 149, 108);
+	border-bottom: solid 5px rgb(130, 134, 96);
 }
 
 .nav-link {
@@ -85,8 +101,14 @@ header {
 	font-family: myFirstFont;
 	cursor: pointer;
 }
+.imagetest {
+	width: 400px;
+	height: auto;
+}
 .p {
 	line-height: 3;
+	font-size: 1.6cm;
+	font-size: 3.367vw;
 	font-family: myFirstFont;
 	text-align: center;
 }
