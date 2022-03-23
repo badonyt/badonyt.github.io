@@ -1,180 +1,189 @@
 @font-face {
-    font-family: myFirstFont;
-    src: url(Roboto/Roboto-Black.ttf);
+	font-family: myFirstFont;
+	src: url(Roboto/Roboto-Black.ttf);
 }
-.termsofffservicee{
-    font-family: myFirstFont;
+.termsofffservicee {
+	font-family: myFirstFont;
 }
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
 }
 .youtubes {
-    width: 200px;
-    height: auto;
-    position: fixed;
-    bottom: 0px;
-    left: 65%;
+	width: 200px;
+	height: auto;
+	position: fixed;
+	bottom: 0px;
+	left: 65%;
 }
 .badpic {
-    width: 250px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+	width: 250px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 .twitches {
-    width: 200px;
-    height: auto;
-    position: fixed;
-    bottom: 0px;
-    left: 45%;
+	width: 200px;
+	height: auto;
+	position: fixed;
+	bottom: 0px;
+	left: 45%;
 }
 .discords {
-    width: 200px;
-    height: auto;
-    position: fixed;
-    bottom: 0px;
-    left: 25%;
+	width: 200px;
+	height: auto;
+	position: fixed;
+	bottom: 0px;
+	left: 25%;
 }
 .discordbutton {
-    width: 200px;
-    height: auto;
-    position: fixed;
-    bottom: 50%;
-    left: 46%;
+	width: 200px;
+	height: auto;
+	position: fixed;
+	bottom: 50%;
+	left: 46%;
 }
 .emailssssss {
-    height: auto;
-    position: fixed;
-    bottom: 50%;
-    left: 44%;
+	height: auto;
+	position: fixed;
+	bottom: 50%;
+	left: 44%;
 
-    font-family: myFirstFont;
-    color: black;
-    font-size: 25px;
+	font-family: myFirstFont;
+	color: black;
+	font-size: 25px;
 }
 
 body {
-    background-color: rgb(58, 253, 255);
+	background-color: rgb(58, 253, 255);
 }
 main {
-    margin: auto;
-    width: 60%;
-    text-align: center;
-    padding: 10px;
+	margin: auto;
+	width: 60%;
+	text-align: center;
+	padding: 10px;
 }
 .nav-links {
-    display: flex;
-    margin: 30px;
+	display: flex;
+	margin: 30px;
 }
 .Bad {
-    font-family: myFirstFont;
+	font-family: myFirstFont;
 }
 header {
-    display: flex;
-    align-items: center;
-    background: rgb(2, 180, 255);
-    border-bottom: solid 5px rgb(78, 143, 240);
+	display: flex;
+	align-items: center;
+	background: rgb(2, 180, 255);
+	border-bottom: solid 5px rgb(78, 143, 240);
 }
 
 .nav-link {
-    padding: 0px 50px;
-    font-family: myFirstFont;
-    cursor: pointer;
+	padding: 0px 50px;
+	font-family: myFirstFont;
+	cursor: pointer;
 }
 .p {
-    line-height: 3;
-    font-family: myFirstFont;
-    text-align: center;
+	line-height: 3;
+	font-family: myFirstFont;
+	text-align: center;
+}
+.pb {
+	line-height: 3;
+	font-family: myFirstFont;
+	text-align: center;
+	font-size: 0.878vw;
+}
+.pc {
+	line-height: 3;
+	font-family: myFirstFont;
+	text-align: center;
+	font-size: 1.8vw;
 }
 .text {
-    line-height: 3;
-    font-family: myFirstFont;
-    text-align: center;
+	line-height: 3;
+	font-family: myFirstFont;
+	text-align: center;
 }
 .Name {
-    font-family: myFirstFont;
-    font-size: 25px;
+	font-family: myFirstFont;
+	font-size: 25px;
 }
 .justmovecenter {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 20%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20%;
 }
 .abouts {
-    font-family: myFirstFont;
+	font-family: myFirstFont;
 
-    text-align: center;
+	text-align: center;
 }
 .socials {
-    width: 200px;
-    height: auto;
-    position: fixed;
-    bottom: 210px;
-    left: 45%;
-    text-align: center;
-    font-family: myFirstFont;
+	width: 200px;
+	height: auto;
+	position: fixed;
+	bottom: 210px;
+	left: 45%;
+	text-align: center;
+	font-family: myFirstFont;
 }
 .secret {
-    width: 200px;
-    height: auto;
-    position: fixed;
-    bottom: 10px;
-    left: 0%;
+	width: 200px;
+	height: auto;
+	position: fixed;
+	bottom: 10px;
+	left: 0%;
 
-    font-family: myFirstFont;
+	font-family: myFirstFont;
 }
 .something {
-    font-family: myFirstFont;
-    line-height: 50px;
-    text-align: center;
+	font-family: myFirstFont;
+	line-height: 50px;
+	text-align: center;
 }
 .termsofbutton {
-    width: 200px;
-    height: auto;
-    position: fixed;
-    bottom: 10px;
-    left: 0%;
+	width: 200px;
+	height: auto;
+	position: fixed;
+	bottom: 10px;
+	left: 0%;
 
-    font-family: myFirstFont;
+	font-family: myFirstFont;
 }
 .termsofbutton_2 {
-    width: 200px;
-    height: auto;
-    position: fixed;
-    bottom: 30px;
-    left: 0%;
+	width: 200px;
+	height: auto;
+	position: fixed;
+	bottom: 30px;
+	left: 0%;
 
-    font-family: myFirstFont;
-
-
-
+	font-family: myFirstFont;
 }
 .termsofbuttonhome {
-    width: 200px;
-    height: auto;
-    position: fixed;
-    bottom: 30px;
-    left: 0%;
+	width: 200px;
+	height: auto;
+	position: fixed;
+	bottom: 30px;
+	left: 0%;
 
-    font-family: myFirstFont;
+	font-family: myFirstFont;
 }
 .contact {
-    text-align: center;
-    font-size: 25px;
-    font-family: myFirstFont;
+	text-align: center;
+	font-size: 25px;
+	font-family: myFirstFont;
 }
 .yup {
-    width: 200px;
-    height: auto;
-    position: fixed;
-    bottom: 700px;
-    left: 50%;
-    font-size: 25px;
+	width: 200px;
+	height: auto;
+	position: fixed;
+	bottom: 700px;
+	left: 50%;
+	font-size: 25px;
 
-    font-family: myFirstFont;
+	font-family: myFirstFont;
 }
