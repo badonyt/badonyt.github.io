@@ -1,0 +1,122 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(Roboto/Roboto-Black.ttf)
+    
+  }
+
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ text-decoration: none;
+ list-style: none;
+
+
+}
+.change{
+    width: 200px;
+    height: auto;position:fixed;
+    bottom: 500px;
+    left: 35%;
+    font-family: myFirstFont;
+}
+.Thximage{
+    width: 200px;
+    height: auto;position:fixed;
+    bottom: 520px;
+    left: 54%;  
+}
+.videoss{
+    text-align: center;
+    font-size: 30px;
+    font-family: myFirstFont;
+}
+.changei{
+    width: 200px;
+    height: auto;position:fixed;
+    bottom: 520px;
+    left: 34.5%;
+}
+.Thx{
+    width: 200px;
+    height: auto;position:fixed;
+    bottom: 500px;
+    left: 55%;
+    font-family: myFirstFont;
+}
+.youtubes{
+    width: 200px;
+    height: auto;position:fixed;
+    bottom: 0px;
+    left: 65%;
+}
+
+.twitches{
+    width: 200px;
+    height: auto;position:fixed;
+    bottom: 0px;
+    left:45%;
+}
+.discords{
+    width: 200px;
+    height: auto;position:fixed;
+    bottom: 0px;
+    left: 25%;
+    
+}
+
+
+body {
+
+ background-color: rgb(58, 253, 255);
+
+
+}
+main {
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    padding: 10px;  
+}
+.nav-links {
+    display: flex;
+    margin: 30px;
+       
+
+
+
+}
+.Bad{
+    font-family: myFirstFont;
+}
+header {
+    display: flex;
+    align-items: center;
+    background: rgb(2, 180, 255);
+    border-bottom: solid 5px rgb(78, 143, 240);
+}
+
+.nav-link {
+    padding: 0px 50px;
+    font-family: myFirstFont;
+}
+.socials {
+    
+    width: 200px;
+    height: auto;position:fixed;
+    bottom: 210px;
+    left:45%;
+    text-align: center;
+    font-family: myFirstFont;
+    
+}
+
+.termsofbutton{
+    
+    width: 200px;
+    height: auto;position:fixed;
+    bottom: 10px;
+    left:0%;
+    
+    font-family: myFirstFont;
+}
