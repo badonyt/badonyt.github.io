@@ -6,6 +6,10 @@
 	font-family: poggers;
 	src: url(/Roboto/Roboto-Regular.ttf);
 }
+@font-face {
+	font-family: good;
+	src: url(/Open_Sans/static/OpenSans/OpenSans-Medium.ttf);
+}
 .termsofffservicee {
 	font-family: myFirstFont;
 }
@@ -68,6 +72,10 @@ body {
 .copytext {
 	/* font-size: 25px; */
 	font-family: poggers;
+	font-size: 1.6vw;
+}
+.copytextt {
+	font-family: good;
 	font-size: 1.6vw;
 }
 
