@@ -9,7 +9,11 @@ var downloadTimer = setInterval(function () {
 	timeleft -= 1;
 	console.log(timeleft);
 	if (timeleft == -1) {
-		location = "https://therickroll.com";
+		if (navigator.userAgent.indexOf("Firefox") != -1) {
+			location = "https://therickroll.com";
+		} else {
+			location = "/rickroll/rickroll.html";
+		}
 	} else if (timeleft < 10) {
 		document.getElementById("timer").innerHTML =
 			"Before you get rickrolled i just wanna say you are getting rick rolled";

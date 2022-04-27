@@ -106,7 +106,11 @@ function drawthis() {
 		document.getElementById("good").innerHTML = "Player Won";
 	} else if (tieinarow > 2) {
 		console.log("secret");
-		window.location.replace("https://therickroll.com/");
+		if (navigator.userAgent.indexOf("Firefox") != -1) {
+			window.location.replace("https://therickroll.com/");
+		} else {
+			location = "/rickroll/rickroll.html";
+		}
 	} else if (won == "tie") {
 		document.getElementById("good").innerHTML = "Tie";
 	}
