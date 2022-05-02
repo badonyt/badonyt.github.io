@@ -12,7 +12,7 @@ This is a **Site** that is supposed to demonstrate bad´s social media
 # Features
 
 ### General:
-Fun secrets
+Fun secrets(you also get rickrolled a lot)
 
 ### Social:
 
