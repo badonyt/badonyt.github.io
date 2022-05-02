@@ -171,6 +171,15 @@ function keyPressed() {
 					ball.setSpeed(MAX_SPEED, 0);
 					poggers = 1;
 				}
+				testt = Math.floor(Math.random() * 150);
+				console.log(testt);
+				if (testt == 2) {
+					if (navigator.userAgent.indexOf("Firefox") != -1) {
+						location = "https://therickroll.com";
+					} else {
+						location = "/rickroll/rickroll.html";
+					}
+				}
 			}
 
 			restart = false;
