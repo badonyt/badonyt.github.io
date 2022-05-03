@@ -74,16 +74,16 @@ function setup() {
 }
 
 function AUP() {
-	paddleA.position.y -= 10;
+	paddleA.position.y -= 17;
 }
 function ADOWN() {
-	paddleA.position.y += 10;
+	paddleA.position.y += 17;
 }
 function BUP() {
-	paddleB.position.y -= 10;
+	paddleB.position.y -= 17;
 }
 function BDOWN() {
-	paddleB.position.y += 10;
+	paddleB.position.y += 17;
 }
 
 function draw() {
